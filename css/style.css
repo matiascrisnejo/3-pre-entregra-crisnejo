@@ -381,3 +381,102 @@ input[type="reset"] {
         width: 50%; }
     .formulario .contacto {
       max-width: 100%; } }
+
+@media (max-width: 320px) {
+  .logo img {
+    width: 90px;
+    padding: 7px;
+    margin-left: 1px;
+    margin-top: 5px; }
+  .navBar {
+    gap: 2px;
+    justify-content: center;
+    margin-left: 2px; }
+    .navBar li {
+      padding: 2px; }
+      .navBar li a {
+        text-decoration: none;
+        font-size: 12px; }
+  .titulo {
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 5px; }
+  .fotoYText {
+    display: grid; }
+    .fotoYText .fotoPerfil {
+      background-position: center;
+      margin: auto;
+      margin-left: 3%;
+      margin-right: 15%; }
+  .textPerfil {
+    width: 100%;
+    margin: auto;
+    margin-right: 10%;
+    background-position: center;
+    text-align: none;
+    padding: 1% 1% 1% 1%;
+    font-size: 18px; }
+    .textPerfil h2 {
+      margin-left: 1px; }
+  .bannerPlanes {
+    height: 290px; }
+  .planes {
+    display: grid;
+    justify-content: center;
+    height: 1500px; }
+    .planes .plan1 {
+      max-width: 100%; }
+      .planes .plan1 img {
+        margin-bottom: 50px; }
+      .planes .plan1 h2 {
+        margin: auto; }
+      .planes .plan1 p {
+        margin: auto;
+        margin-left: 10%;
+        margin-right: 10%; }
+    .planes .plan2 {
+      max-width: 100%; }
+      .planes .plan2 img {
+        margin-bottom: 50px; }
+      .planes .plan2 h2 {
+        margin: auto; }
+      .planes .plan2 p {
+        margin: auto;
+        margin-left: 15%;
+        margin-right: 15%; }
+    .planes .plan3 {
+      max-width: 100%; }
+      .planes .plan3 h2 {
+        margin: auto; }
+      .planes .plan3 p {
+        font-size: 10px;
+        margin: auto;
+        margin-left: 1%;
+        margin-right: 2%; }
+  .recetas {
+    display: grid;
+    height: 1000px; }
+    .recetas .dulce {
+      max-width: 100%; }
+    .recetas .salada {
+      max-width: 100%; }
+  .formulario {
+    display: grid;
+    height: 700px; }
+    .formulario .form {
+      max-width: 100%;
+      width: 100%;
+      padding: 0px 0px 0px 0px;
+      padding-left: 15%; }
+      .formulario .form input {
+        width: 80%;
+        margin-bottom: 2%; }
+      .formulario .form textarea {
+        width: 80%; }
+    .formulario .contacto {
+      max-width: 100%; }
+      .formulario .contacto h2 {
+        font-size: 10px;
+        background-position: none;
+        text-align: none;
+        padding: 50px 25px; } }
